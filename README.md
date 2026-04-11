@@ -50,39 +50,39 @@ The Load Circuit tab parses a SPICE netlist and identifies all components. R, C,
 
 The Define Specs tab allows users to set target performance metrics. Each specification consists of a name, a metric type, a comparison operator, a target value, and an optional frequency parameter. Multiple specifications can be combined to define competing constraints.
 
-![Define Specs](screenshots/02_define_specs.png)
+![Define Specs](02_define_specs.png)
 
 ### Running the genetic algorithm
 
 The Evolve tab shows real-time progress during optimization. Each generation displays the best fitness, average fitness, and the number of specifications met. In this example, the GA achieves 2/2 specs met from generation 0 and continues improving fitness over 15 generations.
 
-![Evolve](screenshots/03_evolve.png)
+![Evolve](03_evolve.png)
 
 ### Viewing optimized results
 
 The Results tab displays the optimized component values alongside their original values and percent change. The specification results table confirms which targets were met. In this run, the passband gain measured 27.03 dB (target >= -3 dB) and the stopband attenuation measured -40.25 dB (target <= -20 dB).
 
-![Results](screenshots/04_results.png)
+![Results](04_results.png)
 
 ### HTML optimization report
 
 The generated HTML report provides a complete record of the optimization run, including a summary, fitness convergence charts, specification results, and component change tables.
 
-![Report Summary](screenshots/05_report_summary.png)
+![Report Summary](05_report_summary.png)
 
-![Report Specs and Components](screenshots/06_report_specs.png)
+![Report Specs and Components](06_report_specs.png)
 
 ### Gene value trajectories
 
 The report includes a log-scale chart showing how each component value evolved across generations. This provides insight into the GA's search behavior and convergence patterns.
 
-![Value Trajectories](screenshots/07_report_trajectories.png)
+![Value Trajectories](07_report_trajectories.png)
 
 ### Algorithm configuration
 
 All GA parameters used during the run are recorded in the report for reproducibility.
 
-![Algorithm Configuration](screenshots/08_report_config.png)
+![Algorithm Configuration](08_report_config.png)
 
 ---
 

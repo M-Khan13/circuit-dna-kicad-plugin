@@ -44,7 +44,7 @@ The plugin is generic and works with any SPICE netlist. It supports both AC and 
 
 The Load Circuit tab parses a SPICE netlist and identifies all components. R, C, and L components are automatically marked as mutable (eligible for optimization). Voltage sources and other non-passive components are excluded.
 
-![Load Circuit](screenshots/01_load_circuit.png)
+![Load Circuit](01_load_circuit.png)
 
 ### Defining performance specifications
 
